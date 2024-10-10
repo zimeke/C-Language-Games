@@ -1,1 +1,1 @@
-This repository contains games developed in the C programming language. These projects were created to practice and improve my skills in C. The games are both controlled and displayed through the terminal. Each project is organized in its own folder, with all relevant files and documentation.
+This repository contains games developed in the C programming language. These projects were created to practice and improve my skills in C. The games are both controlled and displayed through the terminal.

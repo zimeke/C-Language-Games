@@ -32,7 +32,6 @@ DIGITAL NOMAD is an adventure game where players will face a variety of challeng
 
 ## Code Structure
 
-## Features
 At the beginning of the game, the player first selects an option from a menu.
 
 ![image](https://github.com/user-attachments/assets/c682dfd1-9150-4634-8192-fe308de24b00)
@@ -59,7 +58,7 @@ while (menuChoice[1] != '\0' ||
     gets(menuChoice);
 }
 ```
-The displayMenu function is responsible for rendering the menu. It accepts a single input: if the input is 0, the menu is displayed normally; if the input is 1, the menu is displayed along with an error message indicating that the input was invalid. I used this method throughout the code in all instances where the player had to choose from multiple options. The <code style="color : green"> STRING_LIMIT </code> constant defines the maximum size of the string that the program can read.
+The displayMenu function is responsible for displaying the menu. It accepts a single input: if the input is 0, the menu is displayed normally; if the input is 1, the menu is displayed along with an error message indicating that the input was invalid. I used this method throughout the code in all instances where the player had to choose from multiple options. The <code style="color : green"> STRING_LIMIT </code> constant defines the maximum size of the string that the program can read.
 
 The program generates a random number, which is used to determine the type of game event for the current round. There are specific fixed rounds (3, 5, 6, and 9) where predetermined events always occur. If the player's health points (HP) reach 0, the game displays a 'Game Over' message.
 
@@ -148,3 +147,51 @@ struct status {
 };
 ```
 This struct keeps important information about the player's current status, including health, attributes, items in inventory, and the number of rounds played. It is created at the start of each new game and filled with initial values. As the player goes through the game, this struct is updated to show any changes in the player's stats and inventory.
+
+The display is created using special symbols, as shown below:
+```c
+        system("clear");
+        printf("\n\n\n");
+        printf("\t\t\t\t\t\tHERO HP: %.2lf\tDORMAMMU HP: %.2lf\n", gameStatus.HP, dormammuHP);
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n");
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█░░░░░░░░\n");
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░███░░░░░░░\n");
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░███░░░░░░░\n");
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█░░░░░░░░\n");
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█████░░░░░░\n");
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█████░░░░░░\n");
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█████░░░░░░\n");
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█████░░░░░░\n");
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█████░░░░░░\n");
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█████░░░░░░\n");
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█░░░░░░░░\n");
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█░░░░░░░░\n");
+        printf("\t\t\t\t\t░░░██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█░░░░░░░░\n");
+        printf("\t\t\t\t\t░░░██████████░░░░░░░░░░░░░░░░░░░░░░░░░██░░░░░░░░\n");
+        printf("\t\t\t\t\t░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░\n\n\n");
+        
+        printf("\t\t\t\t\tDormammu defeated you!\n\n");
+        printf("\t\t\t\t\tPress ENTER to continue...");
+        getchar();
+```
+## Some gameplay screenshots
+
+![image](https://github.com/user-attachments/assets/74330bcb-7a87-4245-b565-acd8c051b306)
+
+Character selection
+
+![image](https://github.com/user-attachments/assets/5b9c351c-dec9-4804-a183-03a25934ee9b)
+
+Storytelling
+
+![image](https://github.com/user-attachments/assets/f6f1d295-8e1d-465a-83ba-383d0ea1a9bf)
+
+Fighting
+
+![image](https://github.com/user-attachments/assets/39cec205-cedb-488a-ab2f-bf61f065d5b4)
+
+Shop round
+
+![image](https://github.com/user-attachments/assets/9a12709f-e964-4ff2-9ac4-952b998f0f40)
+
+Final boss

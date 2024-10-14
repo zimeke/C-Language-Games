@@ -18,15 +18,15 @@ DIGITAL NOMAD is an adventure game where players will face a variety of challeng
   ![image](https://github.com/user-attachments/assets/bac525c1-27c4-4a7a-84d0-67919be4a059)
   
 ## Compiling and running the game
-1.  Place the C file (DigitalNomad.c) in Cygwin's home directory located at C:\cygwin64\home.
-2.  Open the Cygwin64 Terminal.
+1.  Place the C file (DigitalNomad.c) in Cygwin's home directory located at C:\cygwin64\home
+2.  Open the Cygwin64 Terminal
 3.  Enter the following commands in the terminal:
-    * <code style="color : green"> cd /home </code>  (Navigate to the correct directory.)
-    * <code style="color : green"> ls </code> (Verify that the C file is present in the folder.)
-    * <code style="color : green"> gcc  DigitalNomad.c -o DigitalNomad </code>  (Compile the C file.)
-    * <code style="color : green"> ls </code> (Check if the executable file has been created.)
+    * <code style="color : green"> cd /home </code>  (Navigate to the correct directory)
+    * <code style="color : green"> ls </code> (Verify that the C file is present in the folder)
+    * <code style="color : green"> gcc  DigitalNomad.c -o DigitalNomad </code>  (Compile the C file)
+    * <code style="color : green"> ls </code> (Check if the executable file has been created)
 
 ![image](https://github.com/user-attachments/assets/05bf8308-3b89-4234-97bb-61c574e90c60)
 
-4. Run the DigitalNomad.exe file.
+4. Run the DigitalNomad.exe file
 

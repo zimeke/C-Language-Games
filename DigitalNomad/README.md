@@ -4,6 +4,8 @@ DIGITAL NOMAD is an adventure game where players will face a variety of challeng
 
 ## Installing the compiler 
 ### cygwin
+Package versiók lehetnek frissebbek, de én ezeket használtam. Ezzek a kompilerrel forditottam le a kódot. mással nm mukodik az  egyedi szimbólumok miatt.
+
 * Download the setup file: https://cygwin.com/install.html (setup-x86_64.exe)
 * Run the file, install with default options
 * Packages to install: gcc-core (7.4.0-1), gdb (8.1.1-1), make (4.2.1-1)

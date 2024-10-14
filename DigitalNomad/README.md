@@ -30,3 +30,6 @@ DIGITAL NOMAD is an adventure game where players will face a variety of challeng
 
 4. Run the DigitalNomad.exe file
 
+## Code Structure
+
+## Features

@@ -2,7 +2,7 @@
 
 DIGITAL NOMAD is an adventure game where players will face a variety of challenges. The game consists of 10 rounds. After successfully completing 9 rounds, players can confront the main villain in the 10th round. In each round, except for the 10th, players must complete one challenge, which may include combat, puzzles, riddles, reaction games, gifts, traps, and more. The challenges differ from game to game. Throughout the game, players can collect various items to assist them in their challenges. The player wins if they defeat the main villain, but if at any time their health drops to 0 or below, they lose.
 
-## Compiler 
+## Installing the compiler 
 ### cygwin
 * Download the setup file: https://cygwin.com/install.html (setup-x86_64.exe)
 * Run the file, install with default options

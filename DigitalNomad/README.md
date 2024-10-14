@@ -178,20 +178,30 @@ The display is created using special symbols, as shown below:
 
 ![image](https://github.com/user-attachments/assets/74330bcb-7a87-4245-b565-acd8c051b306)
 
-Character selection
+<p align="center">
+  Character selection
+</p>
 
 ![image](https://github.com/user-attachments/assets/5b9c351c-dec9-4804-a183-03a25934ee9b)
 
-Storytelling
+<p align="center">
+  Storytelling
+</p>
 
 ![image](https://github.com/user-attachments/assets/f6f1d295-8e1d-465a-83ba-383d0ea1a9bf)
 
-Fighting
+<p align="center">
+  Fighting
+</p>
 
 ![image](https://github.com/user-attachments/assets/39cec205-cedb-488a-ab2f-bf61f065d5b4)
 
-Shop round
+<p align="center">
+  Shop round
+</p>
 
 ![image](https://github.com/user-attachments/assets/9a12709f-e964-4ff2-9ac4-952b998f0f40)
 
-Final boss
+<p align="center">
+  Final boss
+</p>
